@@ -7,5 +7,5 @@ form.addEventListener('submit', (e) => {
     const email = form.elements['email'].value;
     const message = form.elements['message'].value;
 
-    alert(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
+    alert(`O formulário foi enviado com sucesso segue as informações enviadas:\nName: ${name}\nEmail: ${email}\nMessage: ${message}`);
 });
